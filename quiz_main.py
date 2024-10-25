@@ -9,7 +9,7 @@ from quiz_db import create_table, get_list_of_questions, get_question, get_quiz_
 logging.basicConfig(level=logging.INFO)
 
 # Замените "YOUR_BOT_TOKEN" на токен, который вы получили от BotFather
-API_TOKEN = '8070025104:AAEcvqdwyyAUMi93Qp-10Wv85_Pz0LRtidI'
+API_TOKEN = 'token'
 # Читаем список вопросов из json файла
 quiz_data = get_list_of_questions('quiz_data.json')
 
